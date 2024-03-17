@@ -1,8 +1,7 @@
-import 'package:oop_task_dart/mathematics/field/mathematics_field.dart';
-import 'package:oop_task_dart/task.dart';
+import 'package:oop_task_dart/task/task.dart';
 
 class MathematicsTask extends Task {
-  MathematicsField field;
+  final String field;
 
   MathematicsTask({
     required super.title,
