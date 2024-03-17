@@ -1,4 +1,4 @@
-class Task {
+abstract class Task {
   String title;
   String description;
   late DateTime creationDateTime;
@@ -10,10 +10,5 @@ class Task {
   }) {
     creationDateTime = DateTime.now();
     updateDateTime = DateTime.now();
-  }
-
-  @override
-  String toString() {
-    return 'Task{title: $title, description: $description}';
   }
 }
